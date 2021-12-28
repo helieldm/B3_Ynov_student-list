@@ -15,6 +15,6 @@ RUN mkdir /data
 COPY student_age.json /data
 VOLUME /data
 
-EXPOSE 5000
+EXPOSE 5000/tcp
 
 CMD ["python", "./student_age.py"]
