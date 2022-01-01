@@ -6,8 +6,8 @@ LABEL maintainer.n4="frederic.gabriel@ynov.com"
 LABEL maintainer.n5="yoann.degaram@ynov.com"
 LABEL maintainer.n6="helie.levydemareuil@ynov.com"
 
-ENV USERNAME=toto
-ENV PASSWORD=python
+ENV USERNAME='toto'
+ENV PASSWORD='python'
 
 COPY index.php /var/www/html/index.php
 WORKDIR /var/www/html
